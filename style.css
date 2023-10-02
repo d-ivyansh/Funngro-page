@@ -1,0 +1,115 @@
+
+.navbar_menu a {
+    position: relative;
+    text-decoration: none;
+    
+    transition: color 0.3s; /* Optional: Add a color transition effect */
+  }
+  
+  .navbar_menu a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    background-color: white; /* Change this to your desired underline color */
+    transform: translateX(-50%);
+    transition: width 0.3s ease, background-color 0.3s ease; /* Add transition effects */
+  }
+  
+  .navbar_menu a:hover {
+    color: white; /* Change the color to your preferred hover color */
+  }
+  
+  .navbar_menu a:hover::after {
+    width: 70%;
+    background-color: #86dc99; 
+  }
+  
+  
+.typewrite {
+   
+    text-align: center;
+    color:#d8e0e9;
+    
+  }
+  
+
+.stats-item {
+    /* Define the initial scale of the stats items */
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+  }
+  
+ 
+  .stats-item.zoom-effect:hover {
+    transform: scale(0.9); /* Scale down on hover */
+  }
+  
+
+  .element-to-animate {
+    opacity: 0;
+    transform: translateY(50px); /* Start the element below its final position */
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  .element-to-animate2 {
+    opacity: 0;
+    transform: translateY(50px); 
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+
+  .element-to-animate3 {
+    opacity: 0;
+    transform: translateY(50px); 
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  .element-to-animate4 {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+
+  .element-to-animate5 {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+
+  .element-to-animate6 {
+    opacity: 0;
+    transform: translateY(50px); 
+    transition: opacity 0.5s, transform 0.5s;
+  }
+
+  .element-to-animate7 {
+    opacity: 0;
+    transform: translateY(50px); 
+    transition: opacity 0.5s, transform 0.5s;
+  }
+.footer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-social-icon svg {
+    transition: filter 0.3s ease;
+  }
+  
+  
+  .footer-social-icon:hover svg path {
+    fill: #86dc99 ; 
+  }
+  
+ 
